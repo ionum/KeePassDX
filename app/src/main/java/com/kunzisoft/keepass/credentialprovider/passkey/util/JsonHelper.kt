@@ -108,7 +108,8 @@ class JsonHelper {
             )
 
             // Authenticator Attestation Globally Unique Identifier
-            val aaguid = ByteArray(16) { 0 }
+            // 5f336a39-2b34-7a422-a5a693b622638552d4e
+            val aaguid = "_3j9+4zB*Zi;b&8U-N".toByteArray()
 
             val credIdLen =
                 byteArrayOf((credentialId.size.shr(8)).toByte(), credentialId.size.toByte())
